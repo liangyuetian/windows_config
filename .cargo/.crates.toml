@@ -1,0 +1,6 @@
+[v1]
+"bat 0.24.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["bat.exe"]
+"evcxr_repl 0.19.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["evcxr.exe"]
+"mcat 0.1.52 (registry+https://github.com/rust-lang/crates.io-index)" = ["mcat.exe"]
+"rust-stakeholder 0.1.0 (git+https://github.com/giacomo-b/rust-stakeholder.git#52f64ad3d61c439b500bc893cbc96050e7a2c85a)" = ["rust-stakeholder.exe"]
+"starship 1.22.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["starship.exe"]

@@ -1,0 +1,31 @@
+[user]
+	email = pt_liangyue@outlook.com
+	name = pt
+[core]
+	autocrlf = true
+	safecrlf = warn
+	symlinks = true
+[safe]
+	directory = D:/code/ymt/misc
+	directory = D:/code/ymt/hybrid
+	directory = D:/code/github/kraken
+	directory = *
+[credential "https://git.ymt360.com"]
+	provider = gitlab
+[credential "https://gitee.com"]
+	provider = generic
+[gui]
+	recentrepo = D:/code/nodejs/router
+[credential "https://chrome-internal.googlesource.com"]
+	provider = generic
+[credential "https://code.aliyun.com"]
+	provider = generic
+[credential "https://gitcode.com"]
+	provider = generic
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[http]
+	postBuffer = 524288000
